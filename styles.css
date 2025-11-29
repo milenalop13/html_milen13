@@ -10,13 +10,62 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background: bisque;
-    color: rgb(67, 67, 62);
+    color: rgb(15, 15, 14);
 }
 
 /* estilos para el cabezado con degrado*/
 .site-header{
-    background: linear-gradient(90deg, #4f46e6, #06b6d4);
-    color: rgb(107, 6, 6);
+    background: linear-gradient(90deg, #97f87c, #ed532c);
+    color: rgb(23, 23, 23);
     padding: 2rem;
     text-align: center;
+}
+
+.subtitle{
+    opacity: 40%;
+}
+.content{
+    display: flex; /*coloca las tarjetas  una al lado de la otra */
+    gap: 3rem; /* separar las tarjetas*/
+    flex-wrap: wrap; /* permite que las  tarjetas bajen si no caben*/
+    justify-content: center;
+    padding: 2rem;
+}
+
+.card{
+    background: #c8e6c0;
+    padding: 1.25rem;
+    border-radius: 12px;
+    box-shadow: 0.6px 18px rgb(143, 189, 154); /* darle profuncidad a la tarjeta*/
+    width: 300px;
+}
+
+.card h2{
+    margin-bottom: 0.5rem;
+}
+
+.card p{
+    margin-bottom: 1rem;
+    color: rgb(49, 53, 53);
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background: #cdea96;
+    justify-content: center;
+    
+}
+
+.card a{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.site-footer{
+    text-align: center;
+    padding: 1rem;
+    color: rgb(103, 100, 100);
 }
